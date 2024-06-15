@@ -8,7 +8,7 @@ import { statusFilters } from "../../redux/constsnts";
 
 import { getStatusFilter } from '../../redux/selectors';
 //Імпортуємо генератор екшену
-import { setStatusFilter } from "../../redux/actions";
+import { setStatusFilter } from "../../redux/filtersSlice";
 
 export const StatusFilter = () => {
   // Отримуємо значення фільтра із стану Redux
